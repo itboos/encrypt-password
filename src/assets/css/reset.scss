@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+body, html, p, h3, h4, h5{
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 750px;
+  margin: 0 auto;
+  background: #fff;
+}
+img {
+  width:100%;
+  vertical-align: top;
+}
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+}

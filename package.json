@@ -1,0 +1,50 @@
+{
+  "name": "encrypt-password",
+  "homepage": "https://github.com/itboos/encrypt-password",
+  "bugs": {
+    "url": "https://github.com/itboos/encrypt-password/issues"
+  },
+  "version": "0.0.26",
+  "description": "encrypt-password, end decrypt password, enhance security。",
+  "dependencies": {
+    "aes-js": "^3.1.2",
+    "clipboard": "^2.0.6",
+    "pbkdf2": "^3.0.17",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-scripts": "3.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "testBuild": "cross-env REACT_APP_ENV=test react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+  },
+  "homepage": ".",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "node-sass": "^4.13.0"
+  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itboos/encrypt-password"
+  },
+  "author": "itboos",
+  "license": "MIT"
+}

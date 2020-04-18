@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="referrer" content="no-referrer">
+    <script type = "text/javaScript">
+      (function () {
+        function init(){
+          var docEl = document.documentElement;
+      
+          window.addEventListener('resize', function () {
+            refreshRem(docEl);
+          });
+      
+          refreshRem(docEl);
+        }
+        function refreshRem(docEl){
+          var width = docEl.getBoundingClientRect().width;
+          if (width > 750) {
+            width = 750;
+          }
+          var rem = width / 20;
+          docEl.style.fontSize = rem + 'px';
+        }
+        init();
+      })();
+    </script>
+    <title></title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
