@@ -19,9 +19,8 @@
     "build": "react-scripts build",
     "testBuild": "cross-env REACT_APP_ENV=test react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "eject": "react-scripts eject"
   },
-  "homepage": ".",
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -40,7 +39,7 @@
   "devDependencies": {
     "cross-env": "^6.0.3",
     "node-sass": "^4.13.0"
-  }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/itboos/encrypt-password"
