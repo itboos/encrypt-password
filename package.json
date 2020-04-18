@@ -1,6 +1,7 @@
 {
   "name": "encrypt-password",
-  "homepage": "https://github.com/itboos/encrypt-password",
+  "//homepage": "将项目资源路径设置为相对路径",
+  "homepage": ".",
   "bugs": {
     "url": "https://github.com/itboos/encrypt-password/issues"
   },
